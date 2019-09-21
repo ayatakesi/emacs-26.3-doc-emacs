@@ -3,25 +3,17 @@
 # This file is distributed under the same license as the Emacs package.
 # Ayanokoji Takesi <ayanokoji.takesi@gmail.com>.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 18:00+0900\n"
-"PO-Revision-Date: 2019-02-27 11:37+0900\n"
+"PO-Revision-Date: 2019-09-21 20:53+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  misc.texi.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  misc.texi.po (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.KdQ7gFDeP2 (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.LkyQ0hSLQO.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.AEvIb1AChJ.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1.91)  #-#-#-#-#\n"
 
 #. type: chapter
 #: original_texis/misc.texi:6
@@ -3966,10 +3958,8 @@ msgstr "--socket-name=@var{server-name}"
 
 #. type: table
 #: original_texis/misc.texi:1931
-#, fuzzy
-#| msgid "Connect to the Emacs server named @var{server-name}.  (This option is not supported on MS-Windows.)  The server name is given by the variable @code{server-name} on the Emacs server.  If this option is omitted, @command{emacsclient} connects to the first server it finds.  If you set @code{server-name} of the Emacs server to an absolute file name, give the same absolute file name as @var{server-name} to this option to instruct @command{emacsclient} to connect to that server."
 msgid "Connect to the Emacs server named @var{server-name}.  (This option is not supported on MS-Windows.)  The server name is given by the variable @code{server-name} on the Emacs server.  If this option is omitted, @command{emacsclient} connects to the first server it finds.  If you set @code{server-name} of the Emacs server to an absolute file name, give the same absolute file name as @var{server-name} to this option to instruct @command{emacsclient} to connect to that server.  You need to use this option if you started Emacs as daemon (@pxref{Initial Options}) and specified the name for the server started by the daemon."
-msgstr "名前が@var{server-name}のEmacsサーバーに接続します(このオプションはMS-Windowsではサポートされない)。サーバー名は、Emacsサーバー上の変数@code{server-name}により与えられます。このオプションが省略された場合、@command{emacsclient}は見つかったサーバーに接続します。Emacsサーバーの@code{server-name}に絶対ファイル名をセットした場合は、@command{emacsclient}がそのサーバーに接続するよう指示するために、@var{server-name}に同じ絶対ファイル名を与えてください。"
+msgstr "名前が@var{server-name}のEmacsサーバーに接続します(このオプションはMS-Windowsではサポートされない)。サーバー名は、Emacsサーバー上の変数@code{server-name}により与えられます。このオプションが省略された場合、@command{emacsclient}は見つかったサーバーに接続します。Emacsサーバーの@code{server-name}に絶対ファイル名をセットした場合は、@command{emacsclient}がそのサーバーに接続するよう指示するために、@var{server-name}に同じ絶対ファイル名を与えてください。Emacsをデーモンとして開始(@ref{Initial Options}を参照)して、そのデーモンにより開始されたサーバーに名前を指定した場合には、このオプションを使用する必要があります。"
 
 #. type: item
 #: original_texis/misc.texi:1932
@@ -4955,17 +4945,17 @@ msgstr "hex editing"
 #. type: Plain text
 #: original_texis/misc.texi:2421
 msgid "There is a special major mode for editing binary files: Hexl mode.  To use it, use @kbd{M-x hexl-find-file} instead of @kbd{C-x C-f} to visit the file.  This command converts the file's contents to hexadecimal and lets you edit the translation.  When you save the file, it is converted automatically back to binary."
-msgstr "バイナリーファイルを編集する特別なメジャーモードに、Hexlモードがあります。これを使用するには、ファイルをvisitするのに。@kbd{C-x C-f}のかわりに@kbd{M-x hexl-find-file}を使用します。このコマンドはファイル内容を16進に変換して、その変換結果を編集できるようにします。ファイルを保存するときは、自動的にバイナリーに変換されます。"
+msgstr "バイナリーファイルを編集する特別なメジャーモードに、Hexlモードがあります。これを使用するには、ファイルをvisitするために@kbd{C-x C-f}のかわりに、@kbd{M-x hexl-find-file}を使用します。このコマンドはファイル内容を16進に変換して、その変換結果を編集できるようにします。ファイルを保存するときは、自動的にバイナリーに変換されます。"
 
 #. type: Plain text
 #: original_texis/misc.texi:2425
 msgid "You can also use @kbd{M-x hexl-mode} to translate an existing buffer into hex.  This is useful if you visit a file normally and then discover it is a binary file."
-msgstr "既存のバッファーをhexに変換するために、@kbd{M-x hexl-mode}を使用することもできます。これは普通にファイルをvisitしてから、それがバイナリーファイルだと気づいた場合などに便利です。"
+msgstr "既存のバッファーを16進(hex)に変換するために、@kbd{M-x hexl-mode}を使用することもできます。これは普通にファイルをvisitしてから、それがバイナリーファイルだと気づいた場合などに便利です。"
 
 #. type: Plain text
 #: original_texis/misc.texi:2433
 msgid "Inserting text always overwrites in Hexl mode.  This is to reduce the risk of accidentally spoiling the alignment of data in the file.  Ordinary text characters insert themselves (i.e., overwrite with themselves).  There are commands for insertion of special characters by their code.  Most cursor motion keys, as well as @kbd{C-x C-s}, are bound in Hexl mode to commands that produce the same effect.  Here is a list of other important commands special to Hexl mode:"
-msgstr ""
+msgstr "Hexlモードでは、テキスト挿入は常に上書きとなります。これは、アクシデントによりファイル内データのアラインメントを破壊する危険を軽減します。通常のテキスト文字は、それらの文字自身をを挿入(それらの文字で上書き)します。文字コードにより特殊文字を挿入するコマンドあります。Hexlモードでは、ほとんどのカーソル移動キー、同様に@kbd{C-x C-s}は、同じ効果を生むコマンドにバインドされています。以下は、特にHexlモードで重要なその他コマンドです:"
 
 #. type: item
 #: original_texis/misc.texi:2436
@@ -5002,31 +4992,25 @@ msgstr "16進でタイプされたバイトコードを挿入します。"
 
 #. type: item
 #: original_texis/misc.texi:2445
-#, fuzzy, no-wrap
-#| msgid "C-M-l"
+#, no-wrap
 msgid "C-M-a"
-msgstr "C-M-l"
+msgstr "C-M-a"
 
 #. type: table
 #: original_texis/misc.texi:2447
-#, fuzzy
-#| msgid "Move to the beginning of a 1k-byte page."
 msgid "Move to the beginning of a 512-byte page."
-msgstr "1Kバイトページの先頭に移動します。"
+msgstr "512バイトページの先頭に移動します。"
 
 #. type: item
 #: original_texis/misc.texi:2448
-#, fuzzy, no-wrap
-#| msgid "C-M-l"
+#, no-wrap
 msgid "C-M-e"
-msgstr "C-M-l"
+msgstr "C-M-e"
 
 #. type: table
 #: original_texis/misc.texi:2450
-#, fuzzy
-#| msgid "Move to the end of a 1k-byte page."
 msgid "Move to the end of a 512-byte page."
-msgstr "1Kバイトページの最後に移動します。"
+msgstr "512バイトページの最後に移動します。"
 
 #. type: item
 #: original_texis/misc.texi:2451

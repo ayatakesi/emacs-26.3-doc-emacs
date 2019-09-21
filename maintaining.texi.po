@@ -3,25 +3,17 @@
 # This file is distributed under the same license as the Emacs package.
 # Ayanokoji Takesi <ayanokoji.takesi@gmail.com>.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 17:59+0900\n"
-"PO-Revision-Date: 2019-01-08 21:28+0900\n"
+"PO-Revision-Date: 2019-09-21 20:25+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  maintaining.texi.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  maintaining.texi.po (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.TGvqvq208p (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.FgC2gKRNCL.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.5RZ8yjJVVk.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1.91)  #-#-#-#-#\n"
 
 #. type: node
 #: original_texis/maintaining.texi:5
@@ -1807,10 +1799,8 @@ msgstr "vc-revert-show-diff"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:1088
-#, fuzzy
-#| msgid "If you want to discard all the changes you have made to the current VC fileset, type @kbd{C-x v u} (@code{vc-revert}).  This shows you a diff between the work file(s) and the revision from which you started editing, and asks for confirmation for discarding the changes.  If you agree, the fileset is reverted.  If you don't want @kbd{C-x v u} to show a diff, set the variable @code{vc-revert-show-diff} to @code{nil} (you can still view the diff directly with @kbd{C-x v =}; @pxref{Old Revisions}).  Note that @kbd{C-x v u} cannot be reversed with the usual undo commands (@pxref{Undo}), so use it with care."
 msgid "If you want to discard all the changes you have made to the current VC fileset, type @kbd{C-x v u} (@code{vc-revert}).  This shows you a diff between the work file(s) and the revision from which you started editing, and asks for confirmation for discarding the changes.  If you agree, the fileset is reverted.  If you don't want @kbd{C-x v u} to show a diff, set the variable @code{vc-revert-show-diff} to @code{nil} (you can still view the diff directly with @kbd{C-x v =}; @pxref{Old Revisions})."
-msgstr "カレントVCファイルセットにたいするすべての変更を破棄したい場合、@kbd{C-x v u} (@code{vc-revert})とタイプします。これは作業ファイルと、編集を開始したときのリビジョンのdiffを表示して、変更を破棄するか確認を求めます。これに同意するとファイルセットはリバートされます。@kbd{C-x v u}でdiffを表示させたくない場合は、変数@code{vc-revert-show-diff}に@code{nil}をセットします(この設定をしても@kbd{C-x v =}で直接diffを表示できます。@ref{Old Revisions}を参照してください)。@kbd{C-x v u}は通常のアンドゥコマンドでは戻せないので、注意して使用してください(@ref{Undo}を参照してください)。"
+msgstr "カレントVCファイルセットにたいするすべての変更を破棄したい場合、@kbd{C-x v u} (@code{vc-revert})とタイプします。これは作業ファイルと、編集を開始したときのリビジョンのdiffを表示して、変更を破棄するか確認を求めます。これに同意するとファイルセットはリバートされます。@kbd{C-x v u}でdiffを表示させたくない場合は、変数@code{vc-revert-show-diff}に@code{nil}をセットします(この設定をしても@kbd{C-x v =}で直接diffを表示できます。@ref{Old Revisions}を参照)。"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:1093
