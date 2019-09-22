@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 17:58+0900\n"
-"PO-Revision-Date: 2019-09-21 18:12+0900\n"
+"PO-Revision-Date: 2019-09-22 13:58+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -209,7 +209,7 @@ msgstr "行を終了して新しい行を開始するには@key{RET}(@code{newli
 #. type: Plain text
 #: original_texis/basic.texi:65
 msgid "As we explain later in this manual, you can change the way Emacs handles text insertion by turning on @dfn{minor modes}.  For instance, the minor mode called Auto Fill mode splits lines automatically when they get too long (@pxref{Filling}).  The minor mode called Overwrite mode causes inserted characters to replace (overwrite) existing text, instead of shoving it to the right.  @xref{Minor Modes}."
-msgstr "マニュアルの後ろで説明しますが、@dfn{マイナーモード(minor modes)}を利用することにより、Emacsが挿入を処理する方法を変更できます。たとえばAuto Fillモードというマイナーモードは行が長くなりすぎたとき自動的に行を分割します(@pxref{Filling})。Overwrite modeというマイナーモードは、既存の文字を右方に押しやるかわりに、既存の文字を置き換え(上書き)ます。@ref{Minor Modes}を参照してください。"
+msgstr "マニュアルの後ろで説明しますが、@dfn{マイナーモード(minor modes)}を利用することにより、Emacsが挿入を処理する方法を変更できます。たとえばAuto Fillモードというマイナーモードは行が長くなりすぎたとき自動的に行を分割します(@ref{Filling}を参照)。Overwrite modeというマイナーモードは、既存の文字を右方に押しやるかわりに、既存の文字を置き換え(上書き)ます。@ref{Minor Modes}を参照してください。"
 
 #. type: cindex
 #: original_texis/basic.texi:66

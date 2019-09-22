@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 18:00+0900\n"
-"PO-Revision-Date: 2019-01-08 21:28+0900\n"
+"PO-Revision-Date: 2019-09-22 14:08+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -4817,7 +4817,7 @@ msgstr "M-x facemenu-set-foreground"
 #. type: table
 #: original_texis/text.texi:2282
 msgid "Prompt for a color (@pxref{Colors}), and apply it as a foreground color."
-msgstr "カラーの入力を求め(@pxref{Colors})、それをフォアグラウドカラーに適用します。"
+msgstr "カラーの入力を求め(@ref{Colors}を参照)、それをフォアグラウドカラーに適用します。"
 
 #. type: findex
 #: original_texis/text.texi:2283

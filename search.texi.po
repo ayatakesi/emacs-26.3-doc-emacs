@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 18:00+0900\n"
-"PO-Revision-Date: 2019-09-22 13:23+0900\n"
+"PO-Revision-Date: 2019-09-22 14:07+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -1533,7 +1533,7 @@ msgstr "regexp-search-ring-max"
 #. type: Plain text
 #: original_texis/search.texi:776
 msgid "All of the special key sequences in an ordinary incremental search (@pxref{Special Isearch}) do similar things in an incremental regexp search.  For instance, typing @kbd{C-s} immediately after starting the search retrieves the last incremental search regexp used and searches forward for it.  Incremental regexp and non-regexp searches have independent defaults.  They also have separate search rings, which you can access with @kbd{M-p} and @kbd{M-n}.  The maximum number of search regexps saved in the search ring is determined by the value of @code{regexp-search-ring-max}, 16 by default."
-msgstr "通常のインクリメンタル検索の特別なキーシーケンス(@pxref{Special Isearch})は、インクリメンタルなregexp検索でも同じようなことを行います。たとえば検索開始直後に@kbd{C-s}をタイプすると、最後に行ったインクリメンタル検索で使ったregexpで、前方検索を行います。インクリメンタルなregexpと非regexp検索は、独立したデフォルトを持ちます。これらは別のサーチリングも持っており、これには@kbd{M-p}と@kbd{M-n}でアクセスできます。サーチリングに保存される検索regexpの最大数は、@code{regexp-search-ring-max}の値により決定され、デフォルトは16です。"
+msgstr "通常のインクリメンタル検索の特別なキーシーケンス(@ref{Special Isearch}を参照)は、インクリメンタルなregexp検索でも同じようなことを行います。たとえば検索開始直後に@kbd{C-s}をタイプすると、最後に行ったインクリメンタル検索で使ったregexpで、前方検索を行います。インクリメンタルなregexpと非regexp検索は、独立したデフォルトを持ちます。これらは別のサーチリングも持っており、これには@kbd{M-p}と@kbd{M-n}でアクセスできます。サーチリングに保存される検索regexpの最大数は、@code{regexp-search-ring-max}の値により決定され、デフォルトは16です。"
 
 #. type: Plain text
 #: original_texis/search.texi:784

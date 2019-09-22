@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 18:00+0900\n"
-"PO-Revision-Date: 2019-09-22 11:00+0900\n"
+"PO-Revision-Date: 2019-09-22 14:06+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -2173,7 +2173,7 @@ msgstr "既存の行をコメントにするには、リージョンがアクテ
 #. type: ifinfo
 #: original_texis/programs.texi:1101
 msgid "(@pxref{Comment Commands})."
-msgstr "(@pxref{Comment Commands})."
+msgstr "(@ref{Comment Commands}を参照)."
 
 #. type: ifnotinfo
 #: original_texis/programs.texi:1104
