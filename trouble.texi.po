@@ -3,25 +3,17 @@
 # This file is distributed under the same license as the Emacs package.
 # Ayanokoji Takesi <ayanokoji.takesi@gmail.com>.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 18:00+0900\n"
-"PO-Revision-Date: 2019-01-08 21:28+0900\n"
+"PO-Revision-Date: 2019-09-22 16:00+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  trouble.texi.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  trouble.texi.po (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.dvvqmVZrjY (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.PJgOoHDheM.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.NV4tbQTjfA.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1.91)  #-#-#-#-#\n"
 
 #. type: chapter
 #: original_texis/trouble.texi:6
@@ -1923,10 +1915,8 @@ msgstr "一般的には、GNU Emacs、およびGNU ELPAに格納されている�
 
 #. type: Plain text
 #: original_texis/trouble.texi:1407
-#, fuzzy
-#| msgid "Copyright assignment is a simple process.  Residents of some countries can do it entirely electronically.  We can help you get started, and answer any questions you may have (or point you to the people with the answers), at the @email{emacs-devel@@gnu.org} mailing list."
 msgid "Copyright assignment is a simple process.  Residents of some countries can do it entirely electronically.  We can help you get started, including sending you the forms you should fill, and answer any questions you may have (or point you to the people with the answers), at the @email{emacs-devel@@gnu.org} mailing list."
-msgstr "著作権譲渡はシンプルなプロセスです。いくつかの国の住民は、これを完全にコンピューター上で行なうことができます。わたしたちは@email{emacs-devel@@gnu.org}メーリングリストで、あなたが始めるのを助けること、あなたがもつかもしれない疑問にたいして回答(または回答をもつ人物を指示)することができます。"
+msgstr "著作権譲渡はシンプルなプロセスです。いくつかの国の住民は、これを完全にコンピューター上で行なうことができます。わたしたちは@email{emacs-devel@@gnu.org}メーリングリストにおいて、著作権譲渡を満足するために必要なフォームを送ったり、あなたがもつであろうさまざまな疑問にたいして回答(または回答をもつ人物を掲示)することで、あなたの着手を助けることができます。"
 
 #. type: Plain text
 #: original_texis/trouble.texi:1411
