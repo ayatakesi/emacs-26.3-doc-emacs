@@ -3,25 +3,17 @@
 # This file is distributed under the same license as the Emacs package.
 # Ayanokoji Takesi <ayanokoji.takesi@gmail.com>.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 18:00+0900\n"
-"PO-Revision-Date: 2019-01-08 21:28+0900\n"
+"PO-Revision-Date: 2019-09-22 11:00+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  programs.texi.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  programs.texi.po (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.4fBY3eQLvv (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.0agCRLID5u.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.d7qV4I6p6B.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1.91)  #-#-#-#-#\n"
 
 #. type: node
 #: original_texis/programs.texi:6
@@ -561,7 +553,7 @@ msgstr "この慣習にしたがわない場合、defunにより動作するコ�
 #: original_texis/programs.texi:176
 #, no-wrap
 msgid "\\( in strings"
-msgstr ""
+msgstr "\\( in strings"
 
 #. type: Plain text
 #: original_texis/programs.texi:183
@@ -2071,10 +2063,8 @@ msgstr "リージョンがアクティブ(@ref{Mark}を参照してください)
 
 #. type: Plain text
 #: original_texis/programs.texi:1008
-#, fuzzy
-#| msgid "If you supply a prefix argument to @kbd{M-;} when a region is active, that specifies the number of comment delimiters to add or delete.  A positive argument @var{n} adds @var{n} delimiters, while a negative argument @var{-n} removes @var{n} delimiters."
 msgid "If you supply a prefix argument to @kbd{M-;} when a region is active, that specifies the number of comment delimiters to add or delete.  A positive argument @var{n} adds @var{n} delimiters, while a negative argument @minus{}@var{n} removes @var{n} delimiters."
-msgstr "リージョンがアクティブのときに@kbd{M-;}に数引数を与えると、それは追加または削除するコメント区切りの数を指定します。正の引数@var{n}は@var{n}個の区切りを追加し、負の引数@var{-n}は@var{n}個の区切りを削除します。"
+msgstr "リージョンがアクティブのときに@kbd{M-;}に数引数を与えると、それは追加または削除するコメント区切りの数を指定します。正の引数@var{n}は@var{n}個の区切りを追加し、負の引数@minus{}@var{n}は@var{n}個の区切りを削除します。"
 
 #. type: Plain text
 #: original_texis/programs.texi:1022
@@ -2094,10 +2084,8 @@ msgstr "comment-line"
 
 #. type: Plain text
 #: original_texis/programs.texi:1043
-#, fuzzy
-#| msgid "@kbd{C-x C-;} (@code{comment-line}) comments or uncomments complete lines.  When a region is active (@pxref{Mark}), @kbd{C-x C-;} either comments or uncomments the lines in the region.  If the region is not active, this command comments or uncomments the line point is on.  With a positive prefix argument @var{n}, it operates on @var{n} lines starting with the current one; with a negative @var{n}, it affects @var{n} preceding lines.  After invoking this command with a negative argument, successive invocations with a positive argument will operate on preceding lines as if the argument were negated."
 msgid "@kbd{C-x C-;} (@code{comment-line}) comments or uncomments complete lines.  When a region is active (@pxref{Mark}), @kbd{C-x C-;} either comments or uncomments the lines in the region.  If the region is not active, this command comments or uncomments the line point is on.  With a positive prefix argument @var{n}, it operates on @var{n} lines starting with the current one; with a negative argument @minus{}@var{n}, it affects @var{n} preceding lines.  After invoking this command with a negative argument, successive invocations with a positive argument will operate on preceding lines as if the argument were negated."
-msgstr "@kbd{C-x C-;} (@code{comment-line})は、行そのものをコメント化または非コメント化します。リージョンがアクティブ(@ref{Mark}を参照してください)の場合は、リージョン内の行をコメント化または非コメント化します。リージョンが非アクティブの場合、このコマンドはポイントがある行をコメント化または非コメント化します。正のプレフィクス引数@var{n}を与えた場合、カレント行から数えて@var{n}行を処理します。@var{n}が負の場合、先行する@var{n}行に作用します。負の引数を与えてこのコマンドを呼び出した後は、それに続けて正の引数を指定して連続して呼び出した場合、あたかも負の引数が与えられたかのように、先行する行を処理します。"
+msgstr "@kbd{C-x C-;} (@code{comment-line})は、行そのものをコメント化または非コメント化します。リージョンがアクティブ(@ref{Mark}を参照してください)の場合は、リージョン内の行をコメント化または非コメント化します。リージョンが非アクティブの場合、このコマンドはポイントがある行をコメント化または非コメント化します。正のプレフィクス引数@var{n}を与えた場合、カレント行から数えて@var{n}行を処理します。負の引数@minus{}@var{n}の場合は、先行する@var{n}行に作用します。負の引数を与えてこのコマンドを呼び出した後は、それに続けて正の引数を指定して連続して呼び出した場合、あたかも負の引数が与えられたかのように、先行する行を処理します。"
 
 #. type: findex
 #: original_texis/programs.texi:1044
@@ -2585,13 +2573,13 @@ msgstr "hs-hide-level"
 #: original_texis/programs.texi:1337
 #, no-wrap
 msgid "hs-toggle-hiding"
-msgstr ""
+msgstr "hs-toggle-hiding"
 
 #. type: findex
 #: original_texis/programs.texi:1338
 #, no-wrap
 msgid "hs-mouse-toggle-hiding"
-msgstr ""
+msgstr "hs-mouse-toggle-hiding"
 
 #. type: item
 #: original_texis/programs.texi:1339 original_texis/programs.texi:1348
@@ -2659,10 +2647,9 @@ msgstr "カレントブロックを表示します(@code{hs-show-block})。"
 
 #. type: itemx
 #: original_texis/programs.texi:1354
-#, fuzzy, no-wrap
-#| msgid "C-c @@ C-h"
+#, no-wrap
 msgid "C-c @@ C-e"
-msgstr "C-c @@ C-h"
+msgstr "C-c @@ C-e"
 
 #. type: table
 #: original_texis/programs.texi:1356

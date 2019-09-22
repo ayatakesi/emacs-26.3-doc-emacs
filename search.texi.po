@@ -3,25 +3,17 @@
 # This file is distributed under the same license as the Emacs package.
 # Ayanokoji Takesi <ayanokoji.takesi@gmail.com>.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 18:00+0900\n"
-"PO-Revision-Date: 2019-04-13 02:19+0900\n"
+"PO-Revision-Date: 2019-09-22 13:23+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  search.texi.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  search.texi.po (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.1xErBg6Wbn (25.2)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.X5si1kJGFs.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  tmp.p5Fml06G8j.translated (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1)  #-#-#-#-#\n"
-"#-#-#-#-#  compendium.po (26.1.91)  #-#-#-#-#\n"
 
 #. type: node
 #: original_texis/search.texi:6
@@ -1616,10 +1608,8 @@ msgstr "このセクション(および、マニュアル全般)では、ユー�
 
 #. type: Plain text
 #: original_texis/search.texi:840
-#, fuzzy
-#| msgid "Regular expressions have a syntax in which a few characters are special constructs and the rest are @dfn{ordinary}.  An ordinary character matches that same character and nothing else.  The special characters are @samp{$^.*+?[\\}.  The character @samp{]} is special if it ends a character alternative (see below).  The character @samp{-} is special inside a character alternative.  Any other character appearing in a regular expression is ordinary, unless a @samp{\\} precedes it.  (When you use regular expressions in a Lisp program, each @samp{\\} must be doubled, see the example near the end of this section.)"
 msgid "Regular expressions have a syntax in which a few characters are @dfn{special constructs} and the rest are @dfn{ordinary}.  An ordinary character matches that same character and nothing else.  The special characters are @samp{$^.*+?[\\}.  The character @samp{]} is special if it ends a character alternative (see below).  The character @samp{-} is special inside a character alternative.  Any other character appearing in a regular expression is ordinary, unless a @samp{\\} precedes it.  (When you use regular expressions in a Lisp program, each @samp{\\} must be doubled, see the example near the end of this section.)"
-msgstr "正規表現は、いくつかの特殊文字と、それ以外の@dfn{普通}の文字からなる構文を持ちます。通常の文字はそれと同じ文字にマッチし、それ以外の文字にはマッチしません。特殊文字は、@samp{$^.*+?[\\}です。文字@samp{]}は、文字候補を終了させる場合は特殊文字です(以下参照)。文字@samp{-}は、文字候補の中では特殊文字です。正規表現の中に現れるその他の文字は、前に@samp{\\}がついてない限り普通の文字です(Lispプログラム内で正規表現を使う場合、@samp{\\}は2つ記述しなければなりません。このセクションの最後にある例を参照してください)。"
+msgstr "正規表現は、いくつかの@dfn{特殊文字(special constructs)}と、それ以外の@dfn{普通}の文字からなる構文を持ちます。通常の文字はそれと同じ文字にマッチし、それ以外の文字にはマッチしません。特殊文字は、@samp{$^.*+?[\\}です。文字@samp{]}は、文字候補を終了させる場合は特殊文字です(以下参照)。文字@samp{-}は、文字候補の中では特殊文字です。正規表現の中に現れるその他の文字は、前に@samp{\\}がついてない限り普通の文字です(Lispプログラム内で正規表現を使う場合、@samp{\\}は2つ記述しなければなりません。このセクションの最後にある例を参照してください)。"
 
 #. type: Plain text
 #: original_texis/search.texi:848
@@ -2345,10 +2335,8 @@ msgstr "equivalent character sequences"
 
 #. type: Plain text
 #: original_texis/search.texi:1323
-#, fuzzy
-#| msgid "Case folding disregards case distinctions among characters, making upper-case characters match lower-case variants, and vice versa.  A generalization of case folding is @dfn{character folding}, which disregards wider classes of distinctions among similar characters.  For instance, under character folding the letter @code{a} matches all of its accented cousins like @code{@\"a} and @code{@'a}, i.e., the match disregards the diacritics that distinguish these variants.  In addition, @code{a} matches other characters that resemble it, or have it as part of their graphical representation, such as @sc{u+249c parenthesized latin small letter a} and @sc{u+2100 account of} (which looks like a small @code{a} over @code{c}).  Similarly, the @acronym{ASCII} double-quote character @code{\"} matches all the other variants of double quotes defined by the Unicode standard.  Finally, character folding can make a sequence of one or more characters match another sequence of a different length: for example, the sequence of two characters @code{ff} matches @sc{u+fb00 latin small ligature ff}.  Character sequences that are not identical, but match under character folding are known as @dfn{equivalent character sequences}."
 msgid "Case folding disregards case distinctions among characters, making upper-case characters match lower-case variants, and vice versa.  A generalization of case folding is @dfn{character folding}, which disregards wider classes of distinctions among similar characters.  For instance, under character folding the letter @code{a} matches all of its accented cousins like @code{@\"a} and @code{@'a}, i.e., the match disregards the diacritics that distinguish these variants.  In addition, @code{a} matches other characters that resemble it, or have it as part of their graphical representation, such as U+249C @sc{parenthesized latin small letter a} and U+2100 @sc{account of} (which looks like a small @code{a} over @code{c}).  Similarly, the @acronym{ASCII} double-quote character @code{\"} matches all the other variants of double quotes defined by the Unicode standard.  Finally, character folding can make a sequence of one or more characters match another sequence of a different length: for example, the sequence of two characters @code{ff} matches U+FB00 @sc{latin small ligature ff}.  Character sequences that are not identical, but match under character folding are known as @dfn{equivalent character sequences}."
-msgstr "case foldingでは、文字の大文字小文字の違いを無視するので、大文字は小文字にマッチし、その逆もマッチします。case foldingを一般化したものが@dfn{character folding}で、これは類似した文字間の違いの、より広いクラスを無視します。たとえばcharacter foldingでは、文字@code{a}は@code{@\"a}や@code{@'a}のようなアクセント付きの類似文字にもマッチし、これらの変種を区別するための特殊記号も無視します。加えて@code{a}は、@code{a}に似ている他の文字や、@sc{u+249c parenthesized latin small letter a}や、@sc{u+2100 account of}(これは小さい@code{c}の上に小さい@code{a}があるような外観をもちます)のような、文字のグラフィカルな外観の一部に@code{a}をもつ文字にもマッチします。同様に@acronym{ASCII}のダブルクォート文字@code{\"}は、ダブルクォートの変種としてUnicode標準で定義されている、他のすべての変種にマッチします。最後に、character foldingにより、1つ以上の文字シーケンスは違う長さの他の文字にもマッチするようになります。たとえば2つの文字@code{ff}は、@sc{u+fb00 latin small ligature ff}にマッチします。文字シーケンスはまったく同じではありませんが、character foldingでのマッチは@dfn{equivalent character sequences(等価文字シーケンス)}として知られています。"
+msgstr "case foldingでは、文字の大文字小文字の違いを無視するので、大文字は小文字にマッチし、その逆もマッチします。case foldingを一般化したものが@dfn{character folding}で、これは類似した文字間の違いの、より広いクラスを無視します。たとえばcharacter foldingでは、文字@code{a}は@code{@\"a}や@code{@'a}のようなアクセント付きの類似文字にもマッチし、これらの変種を区別するための特殊記号も無視します。加えて@code{a}は、@code{a}に似ている他の文字や、@sc{U+249C parenthesized latin small letter a}や、@sc{U+2100 account of}(これは小さい@code{c}の上に小さい@code{a}があるような外観をもちます)のような、文字のグラフィカルな外観の一部に@code{a}をもつ文字にもマッチします。同様に@acronym{ASCII}のダブルクォート文字@code{\"}は、ダブルクォートの変種としてUnicode標準で定義されている、他のすべての変種にマッチします。最後に、character foldingにより、1つ以上の文字シーケンスは違う長さの他の文字にもマッチするようになります。たとえば2つの文字@code{ff}は、@sc{U+FB00 latin small ligature ff}にマッチします。文字シーケンスはまったく同じではありませんが、character foldingでのマッチは@dfn{equivalent character sequences(等価文字シーケンス)}として知られています。"
 
 #. type: kindex
 #: original_texis/search.texi:1324
@@ -2583,10 +2571,8 @@ msgstr "このような式の中では、いくつかの特別なシーケンス
 
 #. type: Plain text
 #: original_texis/search.texi:1469
-#, fuzzy
-#| msgid "Repeating our example to exchange @samp{x} and @samp{y}, we can thus do it also this way:"
 msgid "For example, we can exchange @samp{x} and @samp{y} this way:"
-msgstr "@samp{x}と@samp{y}の入れ替えは、以下の方法で行うことができます:"
+msgstr "たとえば@samp{x}と@samp{y}の入れ替えは、以下の方法で行うことができます:"
 
 #. type: example
 #: original_texis/search.texi:1473
@@ -2950,10 +2936,10 @@ msgstr "カレントマッチを置換して、結果を表示します。そし
 
 #. type: table
 #: original_texis/search.texi:1650
-#, fuzzy
-#| msgid "You can type @kbd{C-r} at this point (see below) to alter the replaced text.  You can also type @kbd{C-x u} to undo the replacement; this exits the @code{query-replace}, so if you want to do further replacement you must use @kbd{C-x @key{ESC} @key{ESC} @key{RET}} to restart (@pxref{Repetition})."
 msgid "You can type @kbd{C-r} at this point (see below) to alter the replaced text.  You can also undo the replacement with the @code{undo} command (e.g., type @kbd{C-x u}; @pxref{Undo}); this exits the @code{query-replace}, so if you want to do further replacement you must use @kbd{C-x @key{ESC} @key{ESC} @key{RET}} to restart (@pxref{Repetition})."
-msgstr "ここで@kbd{C-r}(以下を参照)をタイプして、置換されたテキストを編集できます。@kbd{C-x u}をタイプして、置換を取り消すこともできます。これは@code{query-replace}を終了させるので、さらに置換を行う場合は、@kbd{C-x @key{ESC} @key{ESC} @key{RET}}で置換を再開しなければなりません(@ref{Repetition}を参照してください)。"
+msgstr ""
+"ここで@kbd{C-r}(以下を参照)をタイプして、置換されたテキストを編集できます。\n"
+"@code{undo}コマンド(@kbd{C-x u}とタイプする。@ref{Undo}を参照されたい)で置換をアンドゥすることもできます。置換を取り消すこともできます。これは@code{query-replace}を終了させるので、さらに置換を行う場合は、@kbd{C-x @key{ESC} @key{ESC} @key{RET}}で置換を再開しなければなりません(@ref{Repetition}を参照)。"
 
 #. type: key{#1}
 #: original_texis/search.texi:1651
