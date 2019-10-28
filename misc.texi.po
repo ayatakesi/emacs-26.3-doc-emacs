@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 18:00+0900\n"
-"PO-Revision-Date: 2019-09-21 20:53+0900\n"
+"PO-Revision-Date: 2019-10-28 17:29+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -5133,7 +5133,7 @@ msgstr "frameset-filter-alist"
 #. type: Plain text
 #: original_texis/misc.texi:2507
 msgid "When the desktop restores the frame and window configuration, it uses the recorded values of frame parameters, disregarding any settings for those parameters you have in your init file (@pxref{Init File}).  This means that frame parameters such as fonts and faces for the restored frames will come from the desktop file, where they were saved when you exited your previous Emacs session; any settings for those parameters in your init file will be ignored.  To disable this, customize the value of @code{frameset-filter-alist} to filter out the frame parameters you don't want to be restored."
-msgstr "desktopがフレームとウィンドウの設定えおリストアするときは、フレームパラメーターの記録された値を使用し、initファイル(@ref{Init File}を参照)でそれらのパラメーターに何をセットしていても無視されます。これは、リストアされたフレームにたいするフォントやフェイスのようなフレームパラメーターは、前のEmacsセッションを終了したときに保存されたdesktopファイルから取得され、initファイルでのそれらのパラメーターにたいするセッティングは無視されることを意味します。これを無効にするには、リストアしたくないフレームパラメーターを除外するように、@code{frameset-filter-alist}の値をカスタマイズしてください。"
+msgstr "desktopがフレームとウィンドウの設定をリストアするときは、フレームパラメーターの記録された値を使用し、initファイル(@ref{Init File}を参照)でそれらのパラメーターに何をセットしていても無視されます。これは、リストアされたフレームにたいするフォントやフェイスのようなフレームパラメーターは、前のEmacsセッションを終了したときに保存されたdesktopファイルから取得され、initファイルでのそれらのパラメーターにたいするセッティングは無視されることを意味します。これを無効にするには、リストアしたくないフレームパラメーターを除外するように、@code{frameset-filter-alist}の値をカスタマイズしてください。"
 
 #. type: findex
 #: original_texis/misc.texi:2508
