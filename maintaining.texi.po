@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 26.1.91\n"
 "POT-Creation-Date: 2019-09-21 17:59+0900\n"
-"PO-Revision-Date: 2019-09-22 14:04+0900\n"
+"PO-Revision-Date: 2019-10-07 21:32+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -972,8 +972,9 @@ msgstr "VCファイルセットの各作業ファイルが変更されている�
 
 #. type: itemize
 #: original_texis/maintaining.texi:534
+#, fuzzy
 msgid "If committing to a shared repository, the commit may fail if the repository has been changed since your last update.  In that case, you must perform an update before trying again.  On a decentralized version control system, use @kbd{C-x v +} (@pxref{Pulling / Pushing}) or @kbd{C-x v m} (@pxref{Merging}).  On a centralized version control system, type @kbd{C-x v v} again to merge in the repository changes."
-msgstr "共有リポジトリーにコミットする場合、最後に更新したときからリポジトリーが変更されているときは、コミットが失敗するでしょう。このような場合、再試行する前に更新をしなければなりません。分散型のバージョンコントロールシステムでは、@kbd{C-x v +}(@ref{Pulling / Pushing}を参照してください)、またh@kbd{C-x v m}を使用します(@ref{Merging}を参照してください)。集中型のバージョンコントロールシステムでは、リポジトリーに変更をマージするために、再度@kbd{C-x v v}とタイプしてください。"
+msgstr "共有リポジトリーにコミットする場合、最後に更新したときからリポジトリーが変更されているときは、コミットが失敗するでしょう。このような場合、再試行する前に更新をしなければなりません。分散型のバージョンコントロールシステムでは、@kbd{C-x v +}(@ref{Pulling / Pushing}を参照してください)、または@kbd{C-x v m}を使用します(@ref{Merging}を参照してください)。集中型のバージョンコントロールシステムでは、リポジトリーに変更をマージするために、再度@kbd{C-x v v}とタイプしてください。"
 
 #. type: itemize
 #: original_texis/maintaining.texi:539
