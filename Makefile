@@ -152,7 +152,7 @@ emacs-xtra-ja.pdf: $(TEXIS)
 	dvipdfmx emacs-xtra-ja.dvi
 	rm emacs-xtra-ja.dvi
 
-emacs-ja.txt: $(TEXI)
+emacs-ja.txt: $(TEXIS)
 	texi2any --plaintext emacs-ja.texi > emacs-ja.txt
 
 emacs-ja.texis.tar.gz: $(TEXIS)
