@@ -143,14 +143,10 @@ emacs-ja.info: $(TEXIS)
 	makeinfo --no-split -o emacs-ja.info emacs-ja.texi
 
 emacs-ja.pdf: $(TEXIS)
-	TEX=ptex texi2dvi -c -I ./misc emacs-ja.texi
-	dvipdfmx emacs-ja.dvi
-	rm -f emacs-ja.dvi
+	PDFTEX=luatex texi2pdf -c -I ./misc emacs-ja.texi
 
 emacs-xtra-ja.pdf: $(TEXIS)
-	TEX=ptex texi2dvi -c -I ./misc emacs-xtra-ja.texi
-	dvipdfmx emacs-xtra-ja.dvi
-	rm emacs-xtra-ja.dvi
+	PDFTEX=luatex texi2pdf -c -I ./misc emacs-xtra-ja.texi
 
 emacs-ja.txt: $(TEXIS)
 	texi2any --plaintext emacs-ja.texi > emacs-ja.txt

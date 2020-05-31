@@ -264,3 +264,7 @@ perl -pe \
 perl -pe \
 's/\@settitle Specialized Emacs Features$/\@settitle Specialized Emacs Features\(Japanese Translation\)/;'\
 's/\@title Specialized Emacs Features$/\@title Specialized Emacs Features\(Japanese Translation\)/;' -i emacs-xtra-ja.texi
+
+perl -0pe 's/UTF-8\n\@c/UTF-8\n\@documentlanguage ja\n\@c/m' -i docstyle.texi
+perl -pe 's/\\input texinfo /\\input texinfo-ja /' -i emacs-ja.texi
+perl -pe 's/\\input texinfo /\\input texinfo-ja /' -i emacs-xtra-ja.texi
