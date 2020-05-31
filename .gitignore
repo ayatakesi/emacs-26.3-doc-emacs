@@ -1,0 +1,31 @@
+# Generated japanese texi files.
+/*.texi
+
+# pot files.
+/*.pot
+
+# Built by 'make multi-html'.
+/html/
+
+# Built by 'make info'.
+/*.info
+
+# Built by 'make txt'.
+/*.txt
+
+# Built by 'make pdf'.
+/*.pdf
+
+# Built by 'make tar'.
+/*.tar.gz
+/emacs-ja.texis/
+
+# Built by 'make epub'.
+/*.epub
+/*.docbook
+/mimetype
+/META-INF
+/OEBPS
+
+# Built by 'make texinfo-js'.
+/emacs-ja-html/
